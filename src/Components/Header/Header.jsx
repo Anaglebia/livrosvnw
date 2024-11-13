@@ -1,22 +1,25 @@
-
+import logo from '../../assets/logo.png';
+import search from '../../assets/search.png';
 import './Header.scss';
 
 const Header = () =>{
 
   return (
     <header className="Header">
-        <img src="" alt="" />
-        <span>Livros vai na web</span>
+        <img src={logo} alt="" />
+        <span><h1>Livros vai na web</h1></span>
         <nav>
             <ul className='menu'>
                 <li>Inicio</li>
                 <li>Livros doados</li>
                 <li>Quero doar</li>
             </ul>
-            <div>
-                <p>O que você procura </p>
-            </div>
+            
         </nav>
+        <div className='search'>
+              <input type="text" placeholder='O que você procura?'/>
+                <img src={search} alt="" />
+            </div>
        
     </header>
   )

@@ -1,5 +1,6 @@
 .Header{
-    background-color: #22a;
+    // background: rgb(0,86,149);
+    background: linear-gradient(90deg, rgba(0,27,47,1) 0%, rgba(0,86,149,1) 100%, rgba(0,212,255,1) 100%);
     color: white;
     display: flex;
     align-items: center;
@@ -13,4 +14,17 @@
 }
 ul{
     list-style: none;
+}
+img{
+    width: 4rem;
+}
+.search{
+    display: flex;
+    width:40rem;
+    height: 3rem;
+    border: 2px white solid;
+    border-radius: 16px;
+}
+.search img{
+    width: 1.4rem;
 }
