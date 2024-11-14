@@ -1,0 +1,37 @@
+.title-banner_principal{
+    display: flex;
+    align-items: center;
+}
+.banner{
+   object-fit: contain;
+   width: 1440px;
+   height: 554px;
+}
+.title-banner{
+    position:absolute;
+    z-index: 1;
+    color: #fff;
+}
+.box-principal{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+}
+.box{
+    background-color: #0157944D;
+    width: 286px;
+    height: 321px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-img{
+    width: 100px;
+}

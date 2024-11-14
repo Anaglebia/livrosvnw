@@ -1,0 +1,44 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+    height: 598px;
+    border-radius: 10px;
+    align-items: center;
+    border: 3px #005695 solid;
+    justify-content: space-around;
+    margin: 30px;
+}
+.quero-title{
+    display: flex;
+    align-items: center;
+}
+
+.quero-input{
+    display: flex;
+    text-align: start;
+    width: 400px;
+    height: 50px;
+    border: 3px #005695 solid;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: #000000;
+  }
+
+.btn{
+    background-color: #005695;
+    color: #fff;
+    width: 195px;
+    height: 53px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #5d91b6;
+}

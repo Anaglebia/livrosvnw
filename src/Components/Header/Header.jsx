@@ -1,8 +1,7 @@
 import logo from '../../assets/logo.png';
 import search from '../../assets/search.png';
 import './Header.scss';
-// import Routes from '../../routes';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () =>{
 
@@ -12,22 +11,17 @@ const Header = () =>{
       <img src={logo} alt="" />
       <h1>Livros vai na web</h1>
       </div>
-      {/* <Routes>  */}
         <nav>
             <ul className='menu'>
-            
-            {/* <Link to="/sobre">Inicio</Link> */}
-                <li><a href=""></a></li>
-                <li><a href="">Livros doados</a></li>
-                <li><a href="">Quero doar</a></li>
+            <Link to="/">Inicio</Link>
+            <Link to="./Doados">Livros doados</Link>
+            <Link to="./QueroDoar">Quero doar</Link>
             </ul>
         </nav>
-        {/* </Routes> */}
         <div className='search'>
               <input type="text" placeholder='O que você procura?'/>
               <img src={search} alt="" />
             </div>
-       
     </header>
   )
 }
